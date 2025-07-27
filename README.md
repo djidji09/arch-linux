@@ -32,3 +32,8 @@ setxkbmap fr
 ```terminal 
  sudo pacman -Rns spotify zoom neovim typora
 ```
+
+```terminal 
+cd ~/.local/share/applications
+rm -rf HEY.desktop GitHub.desktop Basecamp.desktop
+```
