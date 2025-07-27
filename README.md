@@ -1,34 +1,34 @@
 # arch-linux
 ## arch-linux's setup
 
-´´´terminal 
+```terminal 
 iwctl
-´´´
+```
 
 ## omarchy's setup
 
-´´´terminal 
+```terminal 
 wget -qO- https://omarchy.org/install | bash
-´´´
+```
 ## configuration 
 ### first copy all the dot files into there correct path
 ### update & upgrade the system
-´´´terminal 
+```terminal 
 sudo pacman -Syu
-´´´
+```
 ### download necesary stuff 
-´´´terminal 
+```terminal 
  yay -s google-chrome nano visual-studio-code-bin
 
-´´´
+```
 ### fix chrome's keyboard problem
 
 
-´´´terminal 
+```terminal 
 setxkbmap fr
-´´´
+```
 ### delete uncesary stuff 
 
-´´´terminal 
+```terminal 
  sudo pacman -Rns spotify zoom neovim typora
-´´´
+```
