@@ -18,8 +18,7 @@ sudo pacman -Syu
 ```
 ### download necesary stuff 
 ```terminal 
- yay -s google-chrome nano visual-studio-code-bin
-
+ yay -s google-chrome nano visual-studio-code-binR discord 
 ```
 ### fix chrome's keyboard problem
 
