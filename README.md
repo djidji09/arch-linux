@@ -1,8 +1,15 @@
 # arch-linux
 ## arch-linux's setup
-
+if the the wifi interface is software blocked you can do this 
+```terminal 
+rfkill list
+rfkill unblock all
+```
 ```terminal 
 iwctl
+station wlan0 scan
+station wlan0 get-networks
+station wlan0 connect YOUR_WIFI_NAME
 ```
 
 ## omarchy's setup
@@ -18,7 +25,7 @@ sudo pacman -Syu
 ```
 ### download necesary stuff 
 ```terminal 
- yay -s google-chrome nano visual-studio-code-binR discord 
+ yay -s google-chrome nano visual-studio-code-binR discord vlc
 ```
 ### fix chrome's keyboard problem
 
@@ -35,4 +42,22 @@ setxkbmap fr
 ```terminal 
 cd ~/.local/share/applications
 rm -rf HEY.desktop GitHub.desktop Basecamp.desktop
+```
+## change the boot screen with (plymouth)
+
+visit [this website](https://github.com/adi1090x/plymouth-themes)
+
+## mount the shared disk 
+
+first we gotta create a folder to mount the disk on 
+```terminal 
+sudo mkdir mnt/shared
+```
+then we mount the selected drive shown with the command "lsblk"
+```terminal 
+sudo mount /dev/sda9 /mnt/shared
+```
+then we create a shortcut of the drive
+```terminal 
+ln -s /mnt/shared/ ~/djidji/shared
 ```
