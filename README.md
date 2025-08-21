@@ -11,6 +11,11 @@ station wlan0 scan
 station wlan0 get-networks
 station wlan0 connect YOUR_WIFI_NAME
 ```
+once the wifi is turned on we use the archinstall script to install linux
+```terminal 
+archinstall
+```
+follow the install and dont forget to get "wget" as additional packages because we are gonna use it to get omarchy
 
 ## omarchy's setup
 
@@ -47,6 +52,17 @@ rm -rf HEY.desktop GitHub.desktop Basecamp.desktop
 
 visit [this website](https://github.com/adi1090x/plymouth-themes)
 
+to list the installed wallpapers
+```terminal 
+sudo plymouth-set-default-theme -l
+```
+```terminal 
+yay -S plymouth-theme-Circuit-git plymouth-theme-Colorful-Loop-git plymouth-theme-Cross-HUD-git plymouth-theme-Cuts-git plymouth-theme-Dark-Planet-git plymouth-theme-Hexagon-Dots-git plymouth-theme-IBM-git plymouth-theme-Loader-git plymouth-theme-Loader-2-git plymouth-theme-Loader-Alt-git plymouth-theme-lone-git plymouth-theme-Owl-git 
+```
+now you can set a theme 
+```terminal
+sudo plymouth-set-default-theme -R NAME
+```
 ## mount the shared disk 
 
 first we gotta create a folder to mount the disk on 
