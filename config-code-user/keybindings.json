@@ -1,0 +1,47 @@
+[
+  // my keybinds for moving faster in vs code
+  {
+    "key": "alt+j",
+    "command": "cursorLeft",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "alt+l",
+    "command": "cursorRight",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "alt+i",
+    "command": "cursorUp",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "alt+k",
+    "command": "cursorDown",
+    "when": "textInputFocus"
+  },
+  // undowing some stuff so the remaps work 
+   { "key": "alt+l",                 "command": "-toggleFindInSelection",
+                                       "when": "editorFocus" },
+   { "key": "ctrl+alt+i",            "command": "-workbench.action.chat.open",
+                                       "when": "!chatSetupDisabled && !chatSetupHidden" },
+   { "key": "ctrl+alt+i",            "command": "-workbench.panel.chat",
+                                       "when": "workbench.panel.chat.view.copilot.active" },
+
+  // 
+  {
+  "key": "ctrl+alt+l",
+  "command": "cursorWordRight",
+  "when": "textInputFocus"
+  },
+  {
+  "key": "ctrl+alt+j",
+  "command": "cursorWordLeft",
+  "when": "textInputFocus"
+  },
+  // prevent the flip bullshit
+  { "key": "ctrl+a",                "command": "workbench.action.quit" },
+  { "key": "ctrl+q",                "command": "editor.action.selectAll" },
+  { "key": "ctrl+z",                "command": "workbench.action.closeActiveEditor" },
+  { "key": "ctrl+w",                "command": "undo" }
+]

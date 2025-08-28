@@ -1,0 +1,14 @@
+ .S_sSSs        .S   .S   .S_sSSs        .S   .S 
+.SS~YS%%b      .SS  .SS  .SS~YS%%b      .SS  .SS 
+S%S   `S%b     S%S  S%S  S%S   `S%b     S%S  S%S 
+S%S    S%S     S%S  S%S  S%S    S%S     S%S  S%S 
+S%S    S&S     S&S  S&S  S%S    S&S     S&S  S&S 
+S&S    S&S     S&S  S&S  S&S    S&S     S&S  S&S 
+S&S    S&S     S&S  S&S  S&S    S&S     S&S  S&S 
+S&S    S&S     S&S  S&S  S&S    S&S     S&S  S&S 
+S*S    d*S     d*S  S*S  S*S    d*S     d*S  S*S 
+S*S   .S*S    .S*S  S*S  S*S   .S*S    .S*S  S*S 
+S*S_sdSSS   sdSSS   S*S  S*S_sdSSS   sdSSS   S*S 
+SSS~YSSY    YSSY    S*S  SSS~YSSY    YSSY    S*S 
+                    SP                       SP  
+                    Y                        Y   
