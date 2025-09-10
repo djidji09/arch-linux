@@ -77,3 +77,10 @@ then we create a shortcut of the drive
 ```terminal 
 ln -s /mnt/shared/ ~/djidji/shared
 ```
+
+## fix discord update 
+go to : 
+```terminal 
+/opt/discord/resources
+```
+and edit the version to the current version
