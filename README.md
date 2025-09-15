@@ -119,7 +119,15 @@ then use the automatic script to install the style you want
 ```
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/keyitdev/sddm-astronaut-theme/master/setup.sh)"
 ```
-
+### selecting a theme 
+edit this line "ConfigFile=Themes/astronaut.conf" in : 
+```
+nano /usr/share/sddm/themes/sddm-astronaut-theme/metadata.desktop
+```
+all the themes are in :
+```
+cd /usr/share/sddm/themes/sddm-astronaut-theme/Themes
+```
 
 
 
