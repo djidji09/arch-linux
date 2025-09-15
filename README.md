@@ -84,3 +84,16 @@ go to :
 /opt/discord/resources
 ```
 and edit the version to the current version
+
+## fix the boot time 
+### Mask TPM2 target and daemon so systemd won’t wait on it
+```
+sudo systemctl mask tpm2.target
+sudo systemctl mask systemd-tpm2d.service
+```
+
+### Re-enable TPM2 (if you ever need it again)
+``` terminal
+sudo systemctl unmask tpm2.target
+sudo systemctl unmask systemd-tpm2d.service
+```
