@@ -129,5 +129,7 @@ all the themes are in :
 cd /usr/share/sddm/themes/sddm-astronaut-theme/Themes
 ```
 
-
+#neovim 
+i am edditing this in neovim :
+##config files 
 
