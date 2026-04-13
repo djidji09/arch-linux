@@ -133,3 +133,33 @@ cd /usr/share/sddm/themes/sddm-astronaut-theme/Themes
 i am edditing this in neovim :
 ##config files 
 
+# flutter 
+
+```
+flutter doctor
+
+```
+1. Install cmdline-tools (IMPORTANT)
+
+Open Android Studio
+
+Go to:
+
+More Actions → SDK Manager
+
+Then:
+
+Go to SDK Tools tab
+Check ✅ Android SDK Command-line Tools (latest)
+Click Apply
+✅ 2. Accept licenses
+
+After installing, run:
+
+flutter doctor --android-licenses
+
+Then press:
+
+y
+y
+y
