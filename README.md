@@ -163,3 +163,10 @@ Then press:
 y
 y
 y
+
+
+then to fix wireless debugging plug in the phone and run : 
+```
+adb tcpip 5555
+
+```
